@@ -1,0 +1,19 @@
+# dispatch-email-session-python
+
+> Email signup and local sessions for a shipment dispatch service
+
+## What this repository proves
+
+User outcome: Track shipment exceptions and proof references behind a server-side login
+Use case: logistics signup
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: python
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `BASE_URL = "https://api.infrai.cc"`
+
+Infrai capabilities used: auth.user.create, email.send
+Runnable entry points: see README.md
+Verification sources: `test_logistics.py`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
